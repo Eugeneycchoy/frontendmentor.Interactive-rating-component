@@ -1,0 +1,42 @@
+.rating-btn {
+  background-color: hsl(215, 20%, 25%);
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: hsl(217, 12%, 63%);
+  padding: 0.3rem;
+  font-weight: 500;
+}
+
+.rating-btn:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(216, 12%, 8%);
+  cursor: pointer;
+  transition: 0.1s ease-in;
+}
+
+#submit-btn {
+  background-color: hsl(25, 97%, 53%);
+  border-radius: 25px;
+  padding: 0.85rem;
+  color: hsl(216, 12%, 8%);
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  border: none;
+  width: 100%;
+}
+
+#submit-btn:hover {
+  cursor: pointer;
+  background-color: white;
+  transition: background-color 0.2s ease-in;
+}
+
+.rating-btn-selected {
+  background-color: white;
+  color: hsl(216, 12%, 8%);
+}
